@@ -29,11 +29,12 @@ In the folder of the Repository are included most of the requirements but not al
 In reverse for Python is executable in all the Current Operating System and only needs the installation of the Requirement.txt
 Then as next step for the C++ Algorithm just build it with cmake
 E.G. 
-1. cd TBC 
-2. mkdir build
-3. cd build
-4. cmake ..
-5. make
+1. move the TGLib folder inside Old_Algorithm folder then, 
+2. cd TBC 
+3. mkdir build
+4. cd build
+5. cmake ..
+6. make
 
 And finally run the executable : 
 - TBC :  ./tbc --path_file="/pathTo/TGraph.txt" --save_results=true--name_file_results="/pathTo/Results.txt" --cost_function="shortest_fastest_TW”
