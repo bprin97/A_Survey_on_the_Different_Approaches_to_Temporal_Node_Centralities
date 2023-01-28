@@ -45,7 +45,7 @@ With the Python counterpart use instead  :
 - pip install -r requirements.txt
 then :
 - TBCDG : python spark_tvbc.py 500 0.3 "pathTo/CollegeMsg.txt" "pathTo/CollegeMsg_Results.txt" 10
-- TNCNN : python main.py "pathTo/CollegeMsg.txt" "pathTo/CollegeMsg_Results.txt" 10
+- TNCCN : python main.py "pathTo/CollegeMsg.txt" "pathTo/CollegeMsg_Results.txt" 10
 ## Datasets : 
 Retrieved from the Snap Dataset Database : http://snap.stanford.edu/temporal-motifs/
 Download them from the Google Drive Repository : https://drive.google.com/drive/folders/146BsM4uttyNx7nyXWnNOmddRWbpJta_a?usp=sharing
@@ -67,7 +67,7 @@ With the next List we state that :
 - ONBRA (Approximation)  quite heavy and without a good setting it takes hours for the smallest but also 12 Hours to Days until reached the mid Dataset, failing to compute it for wiki-talk-temporal, sx-stackoverflow. Heavy means that uses all the memory of the machine cited in the previous line,  making the system kill the process for larg datasets.
 - TBC (Exact) inefficient in memory and time, only CollegeMsg was able to be computed in 2 days consuming all the 16GB of Ram of the Laptop, the others datasets executions was killed by the Excess of memory usage also know in the literature as OoM (Out of Memory) Error.
 - TBCDG (Distributed Approximation) : Inefficient in Time but perfectly fit in memory, just for run the smallest Network CollegeMsg takes more than 2 weeks or more for the Laptop with the requirements listed above but only 5 days and half for a Desktop with a processor Intel i5 of 13th generation with 14 Cores 5Ghz a good Cooling System is required in the Desktop case there was a mixture of Liquid and Fans to mantain the temperature at 45°C, something that the Laptop instead does not have reching 85°C during all the execution, **Warning** these high temperature for so much longer time could ruin the hardware of a machine with a not appropriate Cooling System.
-- TNCNN (Exact) : Not scale for Mid to Large Network, is inefficient in Memory. With the current equipment was able to run only CollegeMsg.txt without a OoM Exception.
+- TNCCN (Exact) : Not scale for Mid to Large Network, is inefficient in Memory. With the current equipment was able to run only CollegeMsg.txt without a OoM Exception.
 
 ## Results :
 In the Folder Results are visible the TopK Central Nodes found from the different approaches and Datasets.
