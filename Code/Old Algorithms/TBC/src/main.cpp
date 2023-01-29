@@ -8,7 +8,7 @@
 
 // Customized :
 #include "results.h"
-#include "cheap_tbc.h"
+#include "tbc.h"
 
 namespace po = boost::program_options;
 int main(int argc, char *argv[]) 

@@ -49,7 +49,7 @@ INCLUDE_DIRECTORIES("${TGLib_INCLUDE_DIR}")
 ##############
 # Set the Customized Libraries and Directories
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/include )
-add_library(Tools INTERFACE include/tbc.h include/cheap_tbc.h include/results.h include/static_graph.h include/cheap_static_graph.h)
+add_library(Tools INTERFACE include/tbc.h  include/results.h include/static_graph.h)
 target_include_directories(Tools INTERFACE)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
