@@ -48,7 +48,7 @@ then :
 - TNCCN : python main.py "pathTo/CollegeMsg.txt" "pathTo/CollegeMsg_Results.txt" 10
 ## Datasets : 
 Retrieved from the Snap Dataset Database : http://snap.stanford.edu/temporal-motifs/
-Download them from the Google Drive Repository : https://drive.google.com/drive/folders/146BsM4uttyNx7nyXWnNOmddRWbpJta_a?usp=sharing
+Download them from the Google Drive Repository : https://drive.google.com/file/d/1VviBH2hk91MO4H0di0iqm0RgXVUzJ0Wy/view?usp=sharing
 This is the following List used : 
 - sx-stackoverflow
 - sx-mathoverflow
