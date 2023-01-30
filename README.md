@@ -48,7 +48,6 @@ then :
 - TNCCN : python main.py "pathTo/CollegeMsg.txt" "pathTo/CollegeMsg_Results.txt" 10
 ## Datasets : 
 Retrieved from the Snap Dataset Database : http://snap.stanford.edu/temporal-motifs/
-Download them from the Google Drive Repository : https://drive.google.com/file/d/1VviBH2hk91MO4H0di0iqm0RgXVUzJ0Wy/view?usp=sharing
 This is the following List used : 
 - sx-stackoverflow
 - sx-mathoverflow
@@ -63,6 +62,8 @@ This is the following List used :
 And 2 toy dataset from : https://networkrepository.com/dynamic.php
 - reptilia-tortoise-network-sl
 - insecta-ant-trophallaxis-colony1
+
+Download all of these Datasets from the following links : https://drive.google.com/file/d/1VviBH2hk91MO4H0di0iqm0RgXVUzJ0Wy/view?usp=sharing
 ### Some Information regarding the whole expreriments
 Either for small datasets some algorithms takes from minutes to days, for mid to very Large Datasets all ,but not TWC, are able to compute the Temporal Node Centrality with only 16 GB of Ram meaning that is suggested the usage of a machine of at least 32 GB if 64 GB or more is preferred.
 Due the High computation of some of them greater is the number of Cores\Threads of the processor better is.
